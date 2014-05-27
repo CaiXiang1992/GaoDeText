@@ -34,20 +34,20 @@ public class MainActivity extends Activity {
 			@Override
 			public void onCheckedChanged(RadioGroup arg0, int arg1) {
 				if (arg1 == R.id.biaozhun) {
-					setLayer("标准地图");
+					setLayer("鏍囧噯鍦板浘");
 				} else {
-					setLayer("卫星地图");
+					setLayer("鍗槦鍦板浘");
 				}
 			}
 		});
 	}
 
 	private void setLayer(String layerName) {
-		if (layerName.equals("标准地图")) {
-			// 显示标准地图
+		if (layerName.equals("鏍囧噯鍦板浘")) {
+			// 锟斤拷示锟斤拷准锟斤拷图
 			aMap.setMapType(AMap.MAP_TYPE_NORMAL);
-		} else if (layerName.equals("卫星地图")) {
-			// 显示卫星地图
+		} else if (layerName.equals("鍗槦鍦板浘")) {
+			// 锟斤拷示锟斤拷锟角碉拷图
 			aMap.setMapType(AMap.MAP_TYPE_SATELLITE);
 		}
 	}
