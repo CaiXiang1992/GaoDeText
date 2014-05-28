@@ -36,17 +36,17 @@ public class MainActivity extends Activity {
 				if (arg1 == R.id.biaozhun) {
 					setLayer("标准地图");
 				} else {
-					setLayer("鍗槦鍦板浘");
+					setLayer("卫星地图");
 				}
 			}
 		});
 	}
 
 	private void setLayer(String layerName) {
-		if (layerName.equals("鏍囧噯鍦板浘")) {
+		if (layerName.equals("标准地图")) {
 			// 锟斤拷示锟斤拷准锟斤拷图
 			aMap.setMapType(AMap.MAP_TYPE_NORMAL);
-		} else if (layerName.equals("鍗槦鍦板浘")) {
+		} else if (layerName.equals("卫星地图")) {
 			// 锟斤拷示锟斤拷锟角碉拷图
 			aMap.setMapType(AMap.MAP_TYPE_SATELLITE);
 		}
