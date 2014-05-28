@@ -34,7 +34,7 @@ public class MainActivity extends Activity {
 			@Override
 			public void onCheckedChanged(RadioGroup arg0, int arg1) {
 				if (arg1 == R.id.biaozhun) {
-					setLayer("标准地图");
+					setLayer("��׼��ͼ");
 				} else {
 					setLayer("卫星地图");
 				}
