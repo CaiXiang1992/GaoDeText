@@ -44,10 +44,8 @@ public class MainActivity extends Activity {
 
 	private void setLayer(String layerName) {
 		if (layerName.equals("±ê×¼µØÍ¼")) {
-			// ï¿½ï¿½Ê¾ï¿½ï¿½×¼ï¿½ï¿½Í¼
 			aMap.setMapType(AMap.MAP_TYPE_NORMAL);
 		} else if (layerName.equals("ÎÀÐÇµØÍ¼")) {
-			// ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½Çµï¿½Í¼
 			aMap.setMapType(AMap.MAP_TYPE_SATELLITE);
 		}
 	}
